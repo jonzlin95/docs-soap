@@ -26,7 +26,8 @@
     "build-lib": "babel src --out-dir lib --plugins=transform-flow-strip-types",
     "build-dev": "webpack --config webpack.config.dev.js",
     "build-prod": "webpack --config webpack.config.prod.js",
-    "build": "npm-run-all build-lib build-dev build-prod"
+    "build": "npm-run-all build-lib build-dev build-prod",
+    "prepare": "npm run build-lib"
   },
   "devDependencies": {
     "babel-cli": "^6.9.0",
