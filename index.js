@@ -5,6 +5,6 @@ const parseHTML = require('./lib/parseHTML');
 
 module.exports = {
   default: docsSoap,
-  docsSoap,
-  parseHTML
+  docsSoap: docsSoap,
+  parseHTML: parseHTML,
 };
