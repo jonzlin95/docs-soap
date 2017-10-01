@@ -17,7 +17,7 @@
     "url": "https://www.github.com/aem/docs-soap/issues"
   },
   "license": "ISC",
-  "main": "index.js",
+  "main": "dist/docs-soap.js",
   "scripts": {
     "codecov": "istanbul cover ./node_modules/.bin/_mocha -- test --recursive --compilers js:babel-register && codecov",
     "test": "mocha --compilers js:babel-register test",
